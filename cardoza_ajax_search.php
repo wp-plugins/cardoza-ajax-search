@@ -1,7 +1,7 @@
 <?php
    /*
    Plugin Name: Cardoza's AJAX Search
-   Plugin URI: http://www.fingerfish.com
+   Plugin URI: http://www.fingerfish.com/wp-plugin-ajax-search/
    Description: This plugin will allow your website visitors to search the posts of your site without page refresh
    Version: 1.0
    Author: Vinoj Cardoza
@@ -9,7 +9,6 @@
    License: GPL2
    */
 ?>
-
 <?php 
 wp_enqueue_script('dynamic-search-ajax-handle', plugin_dir_url(__FILE__). 'cardoza_ajax_search.js', array('jquery'));
 wp_localize_script('dynamic-search-ajax-handle', 'the_ajax_script', array('ajaxurl' => admin_url('admin-ajax.php')));
@@ -44,7 +43,7 @@ function the_search_function(){
 		$search_string = stripslashes($_POST['srch_txt']);
 		if(!empty($search_string)){
 			global $wpdb;
-			$search_result_posts = $wpdb->get_col("select ID from $wpdb->posts where post_title like '%".$search_string."%' ");
+			$search_result_posts = $wpdb->get_col("select ID from $wpdb->posts where post_title like '%".$search_string."%' AND post_status = 'publish'");
 			if(sizeof($search_result_posts)!=0){
 				$args = array('post__in'=>$search_result_posts);
 				$res = new WP_Query($args);
