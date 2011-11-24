@@ -29,7 +29,7 @@ Uninstalling is as simple as deactivating the plugin.
 
 1. screenshot-1.gif
 
-== FAQ ==
+== Frequently Asked Questions ==
 
 None yet, if you have one post it at http://www.fingerfish.com/wp-plugin-ajax-search/
 
