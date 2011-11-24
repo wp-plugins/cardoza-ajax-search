@@ -6,15 +6,17 @@ Tested up to: 3.2
 Stable tag: trunk
 License: GPLv2 or later
 
-Search the posts of your site without page refresh.
+Search the posts without page refresh.
 
 == Description ==
 
 This plugin will allow your website visitors to search the posts of your site without page refresh.
 
+For more visit: http://fingerfish.com/wp-plugin-ajax-search/
+
 == Installation ==
 
-1. Download the cardoza-ajax-search plugin.
+1. Download cardoza-ajax-search plugin.
 2. Upload to your blog,(/wp-content/plugins/)
 3. Activate it.
 4. Then go to widget and drag and drop in the area you want to display the plugin.
