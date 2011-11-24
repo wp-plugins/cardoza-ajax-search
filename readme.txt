@@ -3,10 +3,10 @@ Contributors: Vinoj Cardoza
 Tags: search, ajax, dynamic, cardoza
 Requires at least: 3.0
 Tested up to: 3.2
-Stable tag: 2.5.3
+Stable tag: trunk
 License: GPLv2 or later
 
-This plugin will allow your website visitors to search the posts of your site without page refresh.
+Search the posts of your site without page refresh.
 
 == Description ==
 
@@ -17,9 +17,11 @@ This plugin will allow your website visitors to search the posts of your site wi
 1. Download the cardoza-ajax-search plugin.
 2. Upload to your blog,(/wp-content/plugins/)
 3. Activate it.
-3. Then go to widget and drag and drop in the area you want to display the plugin.
+4. Then go to widget and drag and drop in the area you want to display the plugin.
 
 You're done!
+
+Uninstalling is as simple as deactivating the plugin.
 
 == Screenshots ==
 
