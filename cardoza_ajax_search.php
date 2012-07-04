@@ -1,9 +1,9 @@
 <?php
    /*
-   Plugin Name: Cardoza's AJAX Search
+   Plugin Name: AJAX Post Search
    Plugin URI: http://www.fingerfish.com/wp-plugin-ajax-search/
    Description: This plugin will allow your website visitors to search the posts of your site without page refresh
-   Version: 1.0
+   Version: 1.1
    Author: Vinoj Cardoza
    Author URI: http://fingerfish.com
    License: GPL2
@@ -64,6 +64,6 @@ function the_search_function(){
 }
 
 function cardoza_ajax_search_init(){
-	register_sidebar_widget(__('Cardoza\'s AJAX Search'), 'widget_cardoza_ajax_search');
+	register_sidebar_widget(__('AJAX Post Search'), 'widget_cardoza_ajax_search');
 }
 ?>
