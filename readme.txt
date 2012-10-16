@@ -34,6 +34,9 @@ Uninstalling is as simple as deactivating the plugin.
 None yet, if you have one post it at http://www.fingerfish.com/wp-plugin-ajax-search/
 
 == Change Log ==
+= Version 1.3 =
+* More security added to the input. (Suggested by Marcela)
+
 = Version 1.2 =
 * Translation enabled.
 * French translation added.

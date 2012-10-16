@@ -3,7 +3,7 @@
    Plugin Name: AJAX Post Search
    Plugin URI: http://www.fingerfish.com/wp-plugin-ajax-search/
    Description: This plugin will allow your website visitors to search the posts of your site without page refresh
-   Version: 1.2
+   Version: 1.3
    Author: Vinoj Cardoza
    Author URI: http://fingerfish.com
    License: GPL2
@@ -42,7 +42,9 @@ function widget_cardoza_ajax_search($args){
 
 function the_search_function(){
 	if(isset($_POST['srch_txt'])){
-		$search_string = stripslashes($_POST['srch_txt']);
+		$search_string = htmlspecialchars(stripslashes($_POST['srch_txt']));
+                $search_string = str_ireplace("script", "blocked", $search_string);
+                $search_string = mysql_real_escape_string($search_string);
 		if(!empty($search_string)){
 			global $wpdb;
 			$search_result_posts = $wpdb->get_col("select ID from $wpdb->posts where post_title like '%".$search_string."%' AND post_status = 'publish'");
