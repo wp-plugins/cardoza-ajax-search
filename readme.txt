@@ -1,5 +1,5 @@
 === AJAX Post Search ===
-Contributors: Vinoj Cardoza
+Contributors: vinoj.cardoza
 Tags: search, ajax, dynamic, cardoza
 Requires at least: 3.0
 Tested up to: 3.2
