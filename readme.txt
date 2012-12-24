@@ -12,7 +12,7 @@ Search the posts without page refresh.
 
 This plugin will allow your website visitors to search the posts of your site without page refresh.
 
-For more visit: http://fingerfish.com/wp-plugin-ajax-search/
+For more visit: http://www.vinojcardoza.com/wp-plugin-ajax-search/
 
 == Installation ==
 
@@ -31,7 +31,7 @@ Uninstalling is as simple as deactivating the plugin.
 
 == Frequently Asked Questions ==
 
-None yet, if you have one post it at http://www.fingerfish.com/wp-plugin-ajax-search/
+None yet, if you have one post it at http://www.vinojcardoza.com/wp-plugin-ajax-search/
 
 == Change Log ==
 = Version 1.3 =
