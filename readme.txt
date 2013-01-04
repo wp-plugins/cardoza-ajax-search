@@ -2,7 +2,7 @@
 Contributors: vinoj.cardoza
 Tags: search, ajax, dynamic, cardoza
 Requires at least: 3.0
-Tested up to: 3.2
+Tested up to: 3.5
 Stable tag: trunk
 License: GPLv2 or later
 
