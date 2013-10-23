@@ -1,7 +1,7 @@
 <?php
    /*
    Plugin Name: AJAX Post Search
-   Plugin URI: http://www.vinojcardoza.com/wp-plugin-ajax-search/
+   Plugin URI: http://www.vinojcardoza.com/blog/wp-plugin-ajax-search/
    Description: This plugin will allow your website visitors to search the posts of your site without page refresh
    Version: 1.3
    Author: Vinoj Cardoza
